@@ -1,6 +1,6 @@
 {
   "name": "@scaffold/cli-service",
-  "version": "0.4.2",
+  "version": "0.5.1",
   "description": "",
   "engines": {
     "node": ">=8"
