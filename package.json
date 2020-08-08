@@ -1,5 +1,5 @@
 {
-  "name": "@scaffold/cli",
+  "name": "@scaffold/cli-service",
   "version": "0.4.2",
   "description": "",
   "engines": {
@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js  ",
-    "dll:dev": "webpack --env.development --config ./build/webpack.dll.config ",
-    "dll:prd": "webpack --env.production --config ./build/webpack.dll.config ",
+    "dll:dev": "webpack --env.development --config lib/build/webpack.dll.config.js --progress",
+    "dll:prd": "webpack --env.production --config lib/build/webpack.dll.config.js --progress ",
     "pre-commit": "npm run lint"
   },
   "browerslist": [
@@ -163,6 +163,7 @@
     "react-particles-js": "2.7.0",
     "react-pdf": "4.1.0",
     "react-resizable": "1.10.1",
+    "react-router-dom": "5.1.2",
     "react-dnd": "11.1.3",
     "react-rnd": "10.2.1",
     "react-sortable-hoc": "1.10.1",
