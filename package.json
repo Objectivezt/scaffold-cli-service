@@ -1,6 +1,6 @@
 {
   "name": "@scaffold/cli",
-  "version": "0.2.2",
+  "version": "0.4.2",
   "description": "",
   "engines": {
     "node": ">=8"
@@ -145,7 +145,7 @@
     "omit.js": "^1.0.2",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "ora": "4.0.3",
-    "path-to-regexp": "6.1.0",
+    "path-to-regexp": "1.8.0",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "prettier": "1.19.1",
@@ -158,7 +158,6 @@
     "react-dev-utils": "^9.1.0",
     "react-document-title": "^2.0.3",
     "react-dom": "16.12.0",
-    "react-router-dom": "5.1.2",
     "react-fittext": "1.0.0",
     "react-loadable": "5.5.0",
     "react-particles-js": "2.7.0",
