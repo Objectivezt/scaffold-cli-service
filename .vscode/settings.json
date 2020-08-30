@@ -17,6 +17,7 @@
   "prettier.endOfLine": "crlf",
   "workbench.iconTheme": "vscode-icons",
   "cSpell.words": [
+    "browerslist",
     "mobx",
     "uglifyjs"
   ],
